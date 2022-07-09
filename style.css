@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+a:hover{
+  color: white;
+}
+nav ul{
+    font-family: 'Source Code Pro', monospace;
+    background-color:#5FC3D7;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    list-style: none;
+    margin-bottom: -1px;
+}
+nav ul li ul{
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    font-size: 1.3em;
+   margin-top: 40px;
+}
+#logo-img img {
+
+    border-radius: 170px;
+    width: 100px;
+    height: 100px;
+}
+a{
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+}
+
+nav ul li{
+   
+   height: 100dp;
+    background-color:#5FC3D7;
+    margin: 0 20px;
+}
+
+#Aboutme{
+    align-items: flex-start;
+    
+}
+.img1 {
+    position: relative;
+    width: 200%;
+    height: 100px;
+}
+
+#wavegif img{
+    border-style:none;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10%;
+    
+}
+
+#image img{
+    margin-top: -100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.Skills{
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+#card1{
+    outline-color: gray;
+    outline-width: 0.1mm;
+    font-family: 'Source Code Pro', monospace;
+    outline-style: dotted;
+    background-color: white;
+padding: 7px 30px;
+border-radius: 20px;
+text-align: center;
+}
+
+#card1:hover{
+    transform: translateY(-5px);
+ background-color:aliceblue;
+}
+#card2{
+    outline-color: gray;
+    outline-width: 0.1mm;
+    outline-style: dotted;
+    font-family: 'Source Code Pro', monospace;
+    background-color: white;
+    padding: 7px 30px;
+    border-radius: 20px;
+    text-align: center;
+    }
+    #card2:hover{
+        transform: translateY(-5px);
+        background-color: aliceblue;
+    }
+
+
+#image{
+        animation: 3s anim-lineUp ease-out none ;
+      }
+      @keyframes anim-lineUp{
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+          
+        }
+    
+      }
+
+   
+    #card3{
+        outline-color: gray;
+        outline-width: 0.1mm;
+        outline-style: dotted;
+        background-color: white;
+        padding: 7px 30px;
+        border-radius: 20px;
+        font-family: 'Source Code Pro', monospace;
+        text-align: center;
+        }
+        #card2:hover{
+            transform: translateY(-5px);
+            background-color: aliceblue;
+        }
+  #card3:hover{
+        transform: translateY(-5px);
+     background-color:aliceblue;
+    }
+    #card4{
+        outline-color: gray;
+        outline-width: 0.1mm;
+        outline-style:dotted;
+        background-color: white;
+        padding: 7px 30px;
+        border-radius: 20px;
+        font-family: 'Source Code Pro', monospace;
+        text-align: center;
+        }
+        #card4:hover{
+            transform: translateY(-5px);
+         background-color:aliceblue;
+        }
+
+.blackbox{
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 70px;
+    height: fit-content;
+    background-color: black;
+}
+.blackbox img{
+    margin-left: -80px;
+    padding-top: 100px;
+}
+.blackbox h3{
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 440px;
+    padding-top: 80px;
+    position: absolute;
+    color: white;
+}
+
+
+
+.blackbox h3{
+    animation: 15s anim-lineUp ease-out none ;
+  }
+  @keyframes anim-lineUp{
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+      
+    }
+
+  }
+
+.blackbox h1{
+    padding-top: 30px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: white;
+}
+
+#resumelink{
+    color: blue;
+    opacity: 90%;
+    text-decoration: underline;
+}
+#resumelink :hover{
+    color: #5FC3D7;
+}
+
+.contactgif img{
+    cursor: pointer;
+    border-color: black;
+    border-style: outset;
+    border-width: 1mm;
+    border-radius: 100px;
+}
+.contactgif h1{
+    cursor: pointer;
+    font-weight: 2px;
+}
+.contactgif h1:hover{
+    color: #5FC3D7;
+}
